@@ -10,7 +10,7 @@ def read_input(dir):
 		yield int(line)
 
 def quirksome_squares(input):
-	output = open("o&utput.txt", 'w')
+	output = open("output.txt", 'w')
 	for i in read_input(input):
 		for prod in product('1234567890', repeat=i):
 			half = len(prod)/2
