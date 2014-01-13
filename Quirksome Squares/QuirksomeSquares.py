@@ -1,21 +1,21 @@
 from itertools import product
 from math import pow
 
-def convertToInt(tuple):
+def convert_to_int(tuple):
 	return int(''.join(map(str,tuple)))
 	
-def readInput(dir):
+def read_input(dir):
 	input = open(dir)
 	for line in input:
 		yield int(line)
 
-def QuirksomeSquares(input):
-	output = open("Output.txt", 'w')
-	for i in readInput(input):
-		for j in product('1234567890', repeat=i):
-			half = len(j)/2
-			if pow((convertToInt(j[half:]) + convertToInt(j[:half])), 2) == convertToInt(j):
-				for num in j:
+def quirksome_squares(input):
+	output = open("o&utput.txt", 'w')
+	for i in read_input(input):
+		for prod in product('1234567890', repeat=i):
+			half = len(prod)/2
+			if pow((convert_to_int(prod[half:]) + convert_to_int(prod[:half])), 2) == convert_to_int(prod):
+				for num in prod:
 					output.write(str(num))
 				output.write('\n')
 	output.close()
@@ -23,4 +23,4 @@ def QuirksomeSquares(input):
 ###############################################################################
 
 if __name__ == '__main__':
-	QuirksomeSquares('Input.txt')
+	quirksome_squares('input.txt')
