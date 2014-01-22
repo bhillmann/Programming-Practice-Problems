@@ -1,9 +1,9 @@
-def read_input(dir):
-	input = open(dir)
+def read_input():
+	input = open("input.txt")
 	return list(input)[:-2]
 
-def same_letters(dir):
-	input = read_input(dir)
+def same_letters():
+	input = read_input()
 	output = open("output.txt", 'w')
 	for i in range(len(input)/2):
 		output.write("Case %d: " % (i+1))
@@ -18,4 +18,4 @@ def same_letters(dir):
 ###############################################################################
 
 if __name__ == '__main__':
-	same_letters("input.txt")
+	same_letters()
