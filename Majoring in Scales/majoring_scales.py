@@ -38,9 +38,10 @@ class Scale:
 
 def read_input():
 	input = open("input.txt")
-	input = list(input)
-	for i in range(len(input))[::2]:
-		yield input[i].rstrip(), input[i+1].rstrip().split(';')
+	input_list = list(input)
+	input.close()
+	for i in range(len(input_list))[::2]:
+		yield input_list[i].rstrip(), input_list[i+1].rstrip().split(';')
 
 def write_output():
 	output = open('output.txt', 'w')

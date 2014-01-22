@@ -6,3 +6,4 @@ Key in Scale E
 F#: down fourth > C#
 Bb: invalid note for this key
 B: up octave > B
+
