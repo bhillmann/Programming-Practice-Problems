@@ -52,7 +52,7 @@ def write_output():
 			output.write(scale.do_interval(interval[0], interval[1], interval[2]) + "\n")
 		output.write("\n")
 	output.close()
-		
+
 ###############################################################################
 
 if __name__ == '__main__':
