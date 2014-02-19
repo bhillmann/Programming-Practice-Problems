@@ -2,3 +2,23 @@ C
 F up second;G down third
 E
 F# down fourth;Bb down seventh;B up octave
+E
+B up second;B down second;B up third;B down third;B up fourth;B down fourth;B up fifth;B down fifth;B up sixth;B down sixth;B up seventh;B down seventh;B up octave;B down octave
+Db
+E# up third;Db down third;Ab down fifth;Ab up fifth;G# up fifth;C up second
+Eb
+F up second;G up third;Ab up fourth;Bb up fifth;C up sixth;D up seventh;Eb down seventh
+F
+F down seventh;Bb up third;A# down third;Fb up octave;D down octave
+Gb
+Ab down second;Bb down second;Cb down second;Db down second;Eb down second;F down second;Gb down second
+D
+F# up third;F# down fifth;C# up second;C# down third;A up third
+Ab
+C up fourth;C down fourth;F down fourth;G down fourth
+A
+B up second;D down second;D up third;F# up second
+Bb
+Eb down third;E up octave;B down fourth;Ab down third;Db up seventh
+B
+C up third;D up third;E up third;F up third;Ab up third;A# up third

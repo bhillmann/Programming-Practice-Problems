@@ -7,3 +7,86 @@ F#: down fourth > C#
 Bb: invalid note for this key
 B: up octave > B
 
+Key in Scale E
+B: up second > C#
+B: down second > A
+B: up third > D#
+B: down third > G#
+B: up fourth > E
+B: down fourth > F#
+B: up fifth > F#
+B: down fifth > E
+B: up sixth > G#
+B: down sixth > D#
+B: up seventh > A
+B: down seventh > C#
+B: up octave > B
+B: down octave > B
+
+Key in Scale Db
+E#: invalid note for this key
+Db: down third > Bb
+Ab: down fifth > Db
+Ab: up fifth > Eb
+G#: invalid note for this key
+C: up second > Db
+
+Key in Scale Eb
+F: up second > G
+G: up third > Bb
+Ab: up fourth > D
+Bb: up fifth > F
+C: up sixth > Ab
+D: up seventh > C
+Eb: down seventh > F
+
+Key in Scale F
+F: down seventh > G
+Bb: invalid note for this key
+A#: down third > G
+Fb: invalid note for this key
+D: down octave > D
+
+Key in Scale Gb
+Ab: down second > Gb
+Bb: down second > Ab
+Cb: invalid note for this key
+Db: down second > B
+Eb: down second > Db
+F: down second > Eb
+Gb: down second > F
+
+Key in Scale D
+F#: up third > A
+F#: down fifth > B
+C#: up second > D
+C#: down third > A
+A: up third > C#
+
+Key in Scale Ab
+C: up fourth > F
+C: down fourth > G
+F: down fourth > C
+G: down fourth > Db
+
+Key in Scale A
+B: up second > C#
+D: down second > C#
+D: up third > F#
+F#: up second > G#
+
+Key in Scale Bb
+Eb: down third > C
+E: invalid note for this key
+B: invalid note for this key
+Ab: invalid note for this key
+Db: invalid note for this key
+
+Key in Scale B
+C: invalid note for this key
+D: invalid note for this key
+E: up third > G#
+F: invalid note for this key
+Ab: invalid note for this key
+A#: up third > C#
+
