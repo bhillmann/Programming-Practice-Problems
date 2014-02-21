@@ -1,6 +1,6 @@
 class Scale:
 	def __init__(self, note):
-		if 'b' in note:
+		if 'b' in note or note == 'F':
 			possible_notes = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"]
 		else:
 			possible_notes = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
@@ -46,7 +46,9 @@ def write_output():
 	output = open('output.txt', 'w')
 	for i in read_input():
 		output.write("Key in Scale %s\n" % i[0])
+		print("Key in Scale %s\n" % i[0])
 		scale = Scale(i[0])
+		print("Notes are %s\n" %scale.notes)
 		for interval in i[1]:
 			interval = interval.split()
 			output.write(scale.do_interval(interval[0], interval[1], interval[2]) + "\n")

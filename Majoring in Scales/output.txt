@@ -42,8 +42,8 @@ Eb: down seventh > F
 
 Key in Scale F
 F: down seventh > G
-Bb: invalid note for this key
-A#: down third > G
+Bb: up third > D
+A#: invalid note for this key
 Fb: invalid note for this key
 D: down octave > D
 
