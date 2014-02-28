@@ -21,7 +21,7 @@ def read_input():
 		write_output(number, s_tree, evaluations)
 
 def write_output(number, s_tree, evaluations):
-	output = open("output.txt", 'a')
+	output = open("sTreeAnswers.txt", 'a')
 	output.write("S-Tree #%i:\n" % number)
 	output.write("%s\n\n" % evaluations)
 	output.close()	
@@ -46,10 +46,7 @@ class STree:
 			i = int(i)
 			pos += int(int(vva[i])*pow(2, self.translation[i]))
 		return self.terminal_nodes[pos]
-		
-	
-	
-		
+
 ###############################################################################
 
 if __name__ == '__main__':
