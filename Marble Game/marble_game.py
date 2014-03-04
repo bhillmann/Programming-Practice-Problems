@@ -14,7 +14,7 @@ def write_output():
 		output.write("%d %d\n" % (num_destination_cells, sum_min_moves))	
 	
 def marble_game(num_boxes, marbles):
-	
+	pass
 	
 
 ###############################################################################

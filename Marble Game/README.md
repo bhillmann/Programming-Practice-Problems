@@ -13,17 +13,17 @@ For each test case the output should print 2 integers separated by a single spac
  
 Sample Input 
 
-3 
-3 
-1 1 1 
-4 
-0 1 1 1 
-4 
-2 1 2 1 
+3<br>
+3<br>
+1 1 1<br>
+4<br>
+0 1 1 1<br>
+4<br>
+2 1 2 1<br>
 
 
-Sample Output 
+Sample Output
  
-3 3 
-1 1 
+3 3<br>
+1 1<br>
 2 6
