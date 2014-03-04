@@ -1,6 +1,0 @@
-import sys
-for line in sys.stdin.readlines():
-    if line[0] == '#':
-        print line
-
-http://oreilly.com/catalog/lpython/chapter/ch09.html
