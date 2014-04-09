@@ -1,0 +1,69 @@
+ASCII Diamondi 
+        (From the Asia-Kuala Lumpur Regional 2008)
+Input: Standard Input 
+Output: Standard Output 
+ 
+                                                                                   
+The first eight ASCII diamonds are shown in the figure below. Note that each starts with a center character a, and each layer of the diamond going outward is the next letter in the ASCII lowercase alphabet (a through z, then repeating from a again).  We define N to be the integer side length of the diamond. 
+                                
+ p4403a.jpg 
+
+                        
+Any one of these ASCII diamonds can be used to tile an semi-infinite plane by using it as a tile (semi-infinite because it has a top edge and a left edge, but goes on unboundedly to right and bottom). For example, ASCII diamond with N = 5 would tile the plane as shown in the next figure. Only the first 20 row and 60 columns are shown: 
+                                
+         p4403b.jpg                 
+                                                        
+The rows and columns are numbered starting from zero. By specifying the topmost row (row1), leftmost column (col1), bottommost row (row2) and rightmost column (col2) we can specify a portion of such an infinite grid (also shown in the figure above).
+                                        
+Your task is to take a value for N, the side length of the ASCII diamond tile to be used, plus four integers, the topmost row (row1), leftmost column (col1), bottommost row (row2) and rightmost column (col2), and to print the patterns that would result within that rectangular region (inclusively, include the top and bottom rows given, and the left and right columns given).
+Input 
+
+
+The input will specify a series of cases to solve, at most 125.
+
+
+Each case is given on a single line, as five integers. The first integer is N (0 < N <= 20,000), the side length of the ASCII diamond.  Next are four integers row1, col1, row2, col2 that specify the rectangular region of interest.  These boundaries have the following constraints: 0 <= row1 <= row2 <= 20,000, 0 <= col1 <= col2 <= 20,000, (row2 - row1 + 1) * (col2 - col1 + 1) <= 40,000.
+
+
+The input is terminated by a line containing five integers where the first integer is zero (regardless of the  values of the other integers).
+Output                         
+                                        
+For each test case output the case number, and then print (row2 - row1 + 1) lines of output. Each line contains (col2- col1+1) characters. These lines describe the patterns within the specified rectangular region. 
+Sample Input 
+
+
+5 3 18 10 46
+100 50 50 69 69
+0 2 3 4 5
+Sample Output 
+                                                                
+Case 1:
+.edcbcde..edcbcde..edcbcde..e
+edcbabcdeedcbabcdeedcbabcdeed
+.edcbcde..edcbcde..edcbcde..e
+..edcde....edcde....edcde....                        
+...ede......ede......ede..... 
+....e........e........e...... 
+....e........e........e......
+...ede......ede......ede..... 
+Case 2: 
+utsrqponmlkjihgfedcb
+tsrqponmlkjihgfedcba
+srqponmlkjihgfedcbaz
+rqponmlkjihgfedcbazy
+qponmlkjihgfedcbazyx
+ponmlkjihgfedcbazyxw
+onmlkjihgfedcbazyxwv
+nmlkjihgfedcbazyxwvu
+mlkjihgfedcbazyxwvut
+lkjihgfedcbazyxwvuts
+kjihgfedcbazyxwvutsr
+jihgfedcbazyxwvutsrq
+ihgfedcbazyxwvutsrqp
+hgfedcbazyxwvutsrqpo
+gfedcbazyxwvutsrqpon
+fedcbazyxwvutsrqponm
+edcbazyxwvutsrqponml
+dcbazyxwvutsrqponmlk
+cbazyxwvutsrqponmlkj
+bazyxwvutsrqponmlkji
