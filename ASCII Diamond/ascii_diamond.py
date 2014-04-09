@@ -43,19 +43,6 @@ class Diamond:
     def distance_from_center(self, m, n):
         return abs(m - self.N) + abs(n - self.N)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ###############################################################################
 
 if __name__ == '__main__':
